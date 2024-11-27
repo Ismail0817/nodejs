@@ -66,6 +66,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -85,4 +93,29 @@ body {
 }
 h1 {
   line-height: 1.1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #b97171;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 1em; */
+  background-color: #b97171;
+  
+}
+
+.nav-list li {
+  margin-right: 20px;
+
+}
+
+.nav-logo{
+  width: 7%;
 }
